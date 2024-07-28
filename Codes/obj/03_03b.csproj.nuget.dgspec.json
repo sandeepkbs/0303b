@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/workspaces/semantic-kernel-in-action-1-fundamentals-3836112/src/03_03b/03_03b.csproj": {}
+  },
+  "projects": {
+    "/workspaces/semantic-kernel-in-action-1-fundamentals-3836112/src/03_03b/03_03b.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/workspaces/semantic-kernel-in-action-1-fundamentals-3836112/src/03_03b/03_03b.csproj",
+        "projectName": "03_03b",
+        "projectPath": "/workspaces/semantic-kernel-in-action-1-fundamentals-3836112/src/03_03b/03_03b.csproj",
+        "packagesPath": "/home/vscode/.nuget/packages/",
+        "outputPath": "/workspaces/semantic-kernel-in-action-1-fundamentals-3836112/src/03_03b/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vscode/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
